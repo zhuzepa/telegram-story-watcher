@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Telegram sessions
+*.session
+*.session-journal
+*.session-shm
+*.session-wal
+
+# Databases and runtime data
+*.sqlite3
+*.db
+data/
+logs/
+*.log
+
+# macOS and PyCharm
+.DS_Store
+.idea/
